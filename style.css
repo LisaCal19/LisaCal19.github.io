@@ -1,0 +1,595 @@
+body{
+    margin: 0px;
+}
+nav{
+    border: 1px solid black;
+    height: 100px;
+     background-color: black;
+     padding-left: 70px;
+}
+
+.imagen{
+    float: left;
+    margin-top: 7px;
+    margin-left: 60px;
+}
+
+.opciones ul a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.opciones ul a:hover{
+    color:skyblue ;
+}
+
+
+.boton{
+    width: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carrousel{
+    margin-top: 60px;
+    background-color: rgba(208, 208, 228, 0.356);
+}
+
+.imagen2{
+    height: 510px;
+    width: 100%;
+}
+
+#Plan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 60px;
+    color:rgba(6, 164, 255, 0.747);  
+}
+
+
+#parrafo{
+    font-size: 20px;
+}
+
+.plan1{
+    width: 400px;
+    float: left;
+    margin-left: 200px;
+    border: 3px solid rgb(60, 210, 255);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    margin-bottom: 30px;
+}
+
+.plan1:hover{
+    width: 410px;
+}
+
+.plan2{
+    width: 400px;
+    float: right;
+    margin-right: 200px;
+    border: 3px solid rgb(89, 175, 255);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    margin-bottom: 30px;
+}
+
+.plan2:hover{
+    width: 410px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(89, 175, 255);
+}
+
+.arriba{
+    padding-top: 20px;
+    height: 130px;
+    background-color: black;
+    color: white;
+}
+
+#bene1 li{
+    list-style: none;
+    align-content: left;
+    margin: 25px;
+}
+
+.precio{
+    background-color: rgb(89, 175, 255);
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 6px;
+    }
+
+.precio h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.planes{
+
+    height: 900px;
+}
+
+#ubicaciones{
+    height: 650px;
+    background-color: black;
+    padding-top: 20px;
+}
+
+#ubicaciones h1{
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+}
+
+#textos{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    margin-top: 510px;
+    text-align: center;
+    margin-left: 210px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#textos2{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    margin-top: 440px;
+    text-align: center;
+    margin-left: 910px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#ubicaciones p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#ubicaciones2{
+    height: 600px;
+    background-color: black;
+    padding-top: 50px;
+}
+
+#ubicaciones2 p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.naranjo img{
+    height: 500px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 32px;
+}
+
+.cayala img{
+    height: 350px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 130px;
+    border-radius: 32px;
+}
+
+.forum img{
+    height: 500px;
+    float: left;
+    margin-left: 56px;
+    border-radius: 32px;
+}
+
+.roosvelt img{
+    height: 500px;
+    float: right;
+    margin-right: 56px;
+    border-radius: 32px;
+}
+
+#textos3{
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    margin-top: 470px;
+    text-align: center;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#textos4{
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    margin-top: 470px;
+    text-align: center;
+    margin-left: 910px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.horario{
+    padding: 60px;
+    text-align: center;
+   /*  border: 1px solid black; */
+    height: 1000px;;
+}
+
+.tabla{
+    box-shadow: 2px 3px 22px;
+    
+}
+.tabla thead{
+    background-color: black;
+    color: white;
+}
+
+.horario p{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(89, 175, 255);
+}
+
+.app{
+    margin-top: 30px;
+    height: 600px;
+    float: left;
+    margin-left: 200px;
+}
+
+.app2{
+   /*  border: 1px solid; */
+    margin-top: 150px;
+    width: 450px;
+    height: 330px;
+    float: right;
+    margin-right: 150px;
+    padding: 15px;
+}
+
+.app2 p{
+    font-size: 45px;
+}
+
+.app2 img{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+footer input{
+    margin-left: 50px;
+    
+}
+
+footer p{
+    color: white;
+    margin-left: 50px;
+}
+
+.entrena{
+    height: 190px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#hola{
+    font-size: 30px;
+}
+
+#titulo{
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgba(19, 147, 252, 0.281);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 1px blue;
+}
+#titulos{
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgba(19, 147, 252, 0.281);
+    text-shadow: 5px 5px 1px blue;
+}
+
+#entre{
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+select{
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: skyblue;
+    border-radius: 10px ;
+    padding: 5px;
+    border: 2px solid black;
+    width: 130px; 
+    text-align: center;
+}
+
+.c1{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    height: 450px;
+}
+
+.c1 img{
+    margin-left: 100px;
+    box-shadow: 3px 3px 10px;
+    margin-top: 50px;
+    position: absolute;
+    height: 350px;
+}
+
+#nombre{
+    font-size: 80px;
+    position: absolute;
+    color: rgb(24, 163, 255);
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 3px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.body{
+    background-color: rgba(138, 138, 138, 0.329);
+}
+
+#pa1{
+    font-size: 20px;
+    color: white;
+    margin-top: 140px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 230px;
+}
+
+.cartas{
+    margin: 10px;
+    height: 400px;
+}
+
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#body2{
+    background-color: rgba(135, 207, 235, 0.295);
+}
+
+.c2{
+   /*  border: 1px solid black; */
+    margin-top: 100px;
+    height: 450px;
+}
+
+.c2 img{
+    box-shadow: 3px 3px 10px;
+    margin-top: 80px;
+    float: right;
+    margin-left: 605px;
+    position: absolute;
+    height: 300px;
+}
+
+#nombre2{
+    font-size: 80px;
+    position: absolute;
+    color: rgb(24, 163, 255);
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 3px white;
+    margin-right: 10px;
+    margin-bottom: 0;
+   
+}
+
+#pa2{
+    float: left;
+    font-size: 20px;
+    color: white;
+    margin-top: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.funtio{
+    position: absolute;
+    height: 350px;
+    width: 800px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 10px skyblue;
+}
+
+.beneficios{
+    font-size: 100px;
+    color: rgba(19, 147, 252, 0.281);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 1px blue;
+}
+
+.bici{
+    position: absolute;
+    height: 390px;
+    width: 800px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 460px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 10px skyblue;
+}
+
+.tabla2{
+    box-shadow: 2px 3px 22px rgb(38, 34, 255);
+    width: 400px;
+    
+}
+.tabla2 thead{
+    background-color: black;
+    color: white;
+}
+
+.horario2{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    height: 600px;
+}
+
+.beneficios2{
+    font-size: 50px;
+    color: rgba(20, 239, 255, 0.534);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow:2px 2px 1px rgb(0, 0, 0);
+}
+
+.c3{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    height: 450px;
+}
+
+.c3 img{
+    margin-left: 100px;
+    box-shadow: 3px 3px 10px;
+    margin-top: 70px;
+    position: absolute;
+    height: 300px;
+}
+
+#pa3{
+    float: right;
+    font-size: 20px;
+    color: white;
+    margin-top: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-right: 100px;
+}
+
+#nombre4{
+    font-size: 80px;
+    position: absolute;
+    color: rgb(24, 163, 255);
+    margin-top: 20px;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 3px white;
+}
+
+#pa4{
+    float: left;
+    font-size: 20px;
+    color: white;
+    margin-top: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.c4{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    height: 450px;
+    margin-left: 50px;
+}
+
+.c4 img{
+    margin-left: 640px;
+    box-shadow: 3px 3px 10px;
+    margin-top: 70px;
+    position: absolute;
+   height: 300px;
+}
+
+.coach{
+    width: 400px;
+}
+
+#div{
+    height: 300px;
+}
+
+#prueba{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.151);
+    color: black;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 10px rgb(56, 2, 248);
+}
+
+#cardio{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(26, 9, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.boton2{
+    width: 110px;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mision{
+    background-color: rgba(0, 255, 255, 0.151);
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    margin-left: 300px;
+    padding: 30px;
+    box-shadow: 3px 3px 5px skyblue;
+}
+
+
+.vision{
+    margin-top: 190px;
+    background-color: rgba(0, 110, 255, 0.938);
+    height: 300px;
+    width: 500px;
+    margin-left: 600px;
+    padding: 30px;
+    box-shadow: 3px 3px 5px skyblue;
+}
+
+.vision h1{
+    color: white;
+}
+
+.vision p{
+    color: white;
+}
